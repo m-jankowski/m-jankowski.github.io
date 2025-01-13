@@ -13,42 +13,59 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
-    {
-      year: "2025",
-      conference: "Politische Vierteljahresschrift",
-      title: "Das Schließen der Repräsentationslücke? Die Wählerschaft des Bündnis Sahra Wagenknecht – Eine Analyse basierend auf Paneldaten",
-      authors: "",
-      imageUrl: "/images/pvs_bsw.png"
+  {
+    year: "2025",
+    conference: "Institute 4 Replication",
+    title: "Do Populist Radical-Right Parties Use Descriptive Representation Strategically? A Replication of Weeks et al. (2023)",
+    authors: "with Ben Guinaudeau",
+    imageUrl: "/images/i4r.png",
+    paperUrl: "https://www.econstor.eu/bitstream/10419/302283/1/I4R-DP149.pdf",
+    tldr: "A study is not robust when the results depend on a single observation, even when you publish it in the APSR."
+  },
+  {
+    year: "2024",
+    conference: "Politische Vierteljahresschrift",
+    title: "Das Schließen der Repräsentationslücke? Die Wählerschaft des Bündnis Sahra Wagenknecht – Eine Analyse basierend auf Paneldaten",
+    authors: "",
+    imageUrl: "/images/pvs_bsw.png",
+    paperUrl: "https://link.springer.com/article/10.1007/s11615-024-00583-6",
+    tldr: "Voters which switched to the BSW have always been culturally more conservative and more populist than other voters, even when they had similar voting patterns in the past. Most BSW voters have previously voted for Die Linke, SPD or AfD."
   },
   {
       year: "2025",
       conference: "European Journal of Political Research",
       title: "Selecting and Ranking Female Candidates Under PR: Evidence from a Two-Stage Conjoint Experiment",
       authors: "with Jochen Rehmert",
-      imageUrl: "/images/ejpr_women.png"
+      imageUrl: "/images/ejpr_women.png",
+      paperUrl: "https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12726?af=R",
+      tldr: "Based on a novel conjoint design, we demonstrate that women are selected to top positions under PR. Moreover, when fewer women compete for list positions, then the remaining women are nominated to better list positions."
   },
   {
       year: "2025",
       conference: "Public Policy and Administration",
       title: "Prioritizing exceptional social needs. Experimental evidence on the role of discrimination and client deservingness in public employees' and citizens' discretionary behavior",
       authors: "with Brian Dietrich, Kai-Uwe Schnapp and Markus Tepe",
-      imageUrl: "/images/exceptional.png"
+      imageUrl: "/images/exceptional.png",
+      paperUrl: "https://journals.sagepub.com/doi/10.1177/09520767231210025?icid=int.sj-abstract.citing-articles.9",
+      tldr: "Public employees and citizens show similar preferences when it comes to deservingness-based decision making. Discrimination exists but only to a small extent."
   },
   {
     year: "2024",
     conference: "Journal of Elections, Public Opinion and Parties",
     title: "Voting Against Parties: Populist Attitudes, Party Supply, and Support for Non-Partisan Actors",
     authors: "with Cristina-Marie Juen and Markus Tepe",
-    paperUrl: "",
-    imageUrl: "/images/jepop_ill.png"
+    paperUrl: "https://www.tandfonline.com/doi/full/10.1080/17457289.2023.2253729",
+    imageUrl: "/images/jepop_ill.png",
+    tldr: "Voters with higher levels of populist attitudes are more likely to vote for Independent Local Lists.",
 },
 {
     year: "2023",
     conference: "European Political Science Review",
     title: "Electoral System Preferences of Citizens Compared: Evidence from a Conjoint Experiment in Germany, the Netherlands and the United Kingdom",
     authors: "with Eric Linhart and Markus Tepe",
-    paperUrl: "",
-    imageUrl: "/images/epsr_conjoint.png"
+    paperUrl: "https://www.cambridge.org/core/journals/european-political-science-review/article/abs/electoral-system-preferences-of-citizens-compared-evidence-from-a-conjoint-experiment-in-germany-the-netherlands-and-the-united-kingdom/F80C246D6D3C8F5D5A5F31990A5373F4",
+    imageUrl: "/images/epsr_conjoint.png",
+    tldr: "Voters really like proportional electoral systems, even when they live in the UK."
 
 },
 {
@@ -56,55 +73,63 @@ export const publicationData: Publication[] = [
     conference: "West European Politics",
     title: "Do voters want their parties to be office- or policy-seekers in coalition negotiations?",
     authors: "with Martin Gross, Christina-Marie Juen and Florian Erlbruch",
-    paperUrl: "",
-    imageUrl: "/images/wep_coal.jpeg"
+    paperUrl: "https://www.tandfonline.com/doi/full/10.1080/01402382.2023.2208953",
+    imageUrl: "/images/wep_coal.jpeg",
+    tldr: "Voters want their parties to be primarily policy-seekers in coalition negotiations, but office-seeking can play an important role."
 },
 {
     year: "2023",
     conference: "Politische Vierteljahresschrift",
     title: "Support for strategic voting campaigns: Evidence from a survey experiment during the German General Election of 2021",
     authors: "",
-    imageUrl: "/images/pvs_cue.png"
+    paperUrl: "https://link.springer.com/article/10.1007/s11615-023-00456-4",
+    imageUrl: "/images/pvs_cue.png",
+    tldr: "Strategic voting campaigns by interests groups gain more support when they are supported by the affected parties."
 },
 {
     year: "2023",
     conference: "Political Analysis",
     title: "When Correlation Is Not Enough: Validating Populism Scores from Supervised Machine-Learning Models",
     authors: "with Robert A. Huber",
-    paperUrl: "",
-    imageUrl: "/images/pa_corr.png"
+    paperUrl: "https://www.cambridge.org/core/journals/political-analysis/article/when-correlation-is-not-enough-validating-populism-scores-from-supervised-machinelearning-models/8CB3DCBECD1E37872074E7F8A9DE20BA",
+    imageUrl: "/images/pa_corr.png",
+    tldr: "Evaluating only the F1 scores and correlations with other measures can be insufficient for assessing the validity of machine-learning models."
 },
 {
   year: "2023",
   conference: "European Journal of Political Research",
   title: "Populist Parties and the Two-Dimensional Policy Space",
   authors: "with Robert A. Huber and Christina-Marie Juen",
-  paperUrl: "",
-  imageUrl: "/images/ejpr_2d.png"
+  paperUrl: "https://ejpr.onlinelibrary.wiley.com/doi/full/10.1111/1475-6765.12569",
+  imageUrl: "/images/ejpr_2d.png",
+  tldr: "Populist parties combine radical host ideologies with strong issue emphasis. Left-wing populism is about the economy, and right-wing populism about migration."
 },
 {
   year: "2023",
   conference: "Acta Politica",
   title: "Turning a blind eye on the black sheep. When are voters loyal to corrupt politicians?",
   authors: "with Christina-Marie Juen and Marcel Lewandowsky",
-  paperUrl: "",
-  imageUrl: "/images/acta_corrupt.png"
+  paperUrl: "https://link.springer.com/article/10.1057/s41269-022-00263-6",
+  imageUrl: "/images/acta_corrupt.png",
+  tldr: "Voters often do not punish corrupt politicians because the 'costs' of switching to a candidate from a less preferred party are perceived higher. Voters of radical parties often lack 'viable alternative' and thus continue to support corrupt candidates, even though they do not like corruption."
 },
 {
   year: "2023",
   conference: "European Political Science Review",
   title: "Sympathy for the devil? Voter support for illiberal politicians",
   authors: "with Marcel Lewandowsky",
-  paperUrl: "",
-  imageUrl: "/images/epsr_ill.png"
+  paperUrl: "https://www.cambridge.org/core/journals/european-political-science-review/article/sympathy-for-the-devil-voter-support-for-illiberal-politicians/5D21A5BF065BC9E67AD8E015FFB5EACE",
+  imageUrl: "/images/epsr_ill.png",
+  tldr: "We know that voters might trade-off policy congruence against adherence to democratic principles when selecting candidates. We demonstrate that populist and authoritarian voters are particularly likely to do so, while less populist/authoritarian voters do not tarde-off these concepts so easily."
 },
 {
   year: "2023",
   conference: "European Journal of Politics and Gender",
   title: "Slowly adopting: The impact of same-sex marriage legalization on the attitudes of parliamentary candidates in Germany",
   authors: "",
-  paperUrl: "",
-  imageUrl: "/images/ejpg_choice.png"
+  paperUrl: "https://www.google.com/search?client=safari&rls=en&q=Slowly+adopting%3A+The+impact+of+same-sex+marriage+legalization+on+the+attitudes+of+parliamentary+candidates+in+Germany&ie=UTF-8&oe=UTF-8",
+  imageUrl: "/images/ejpg_choice.png",
+  tldr: "For decades, CDU/CSU candidates opposed same-sex marriage. However, after its legislation, the preferences of many CDU/CSU candidates on this topic has changed and opposition crumbles."
 },
 {
   year: "2023",
