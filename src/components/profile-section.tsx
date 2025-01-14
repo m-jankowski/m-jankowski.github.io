@@ -96,7 +96,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
             rel="noopener noreferrer"
           >
             <Mail size={14} />
-            {aboutMe.email}
+            Contact me (E-Mail)
           </a>
           {aboutMe.googleScholarUrl && (
             <>
@@ -121,7 +121,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Twitter size={14} />@{aboutMe.twitterUsername}
+                <Twitter size={14} />Twitter Profile
               </a>
             </>
           )}
@@ -149,7 +149,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
                 rel="noopener noreferrer"
               >
                 <Linkedin size={14} />
-                linkedin.com/in/{aboutMe.linkedinUsername}
+                LinkedIn Profile
               </a>
             </>
           )}

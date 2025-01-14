@@ -100,7 +100,7 @@ export default function Home() {
                     experienceData.length > 0 && (
                       <section key={sectionName}>
                         <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
-                          Experience
+                          Work Experience
                         </h2>
                         <div className="space-y-12">
                           {experienceData.map((experience, index) => (

@@ -15,21 +15,21 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
+    conference: "Politische Vierteljahresschrift",
+    title: "Das Schließen der Repräsentationslücke? Die Wählerschaft des Bündnis Sahra Wagenknecht – Eine Analyse basierend auf Paneldaten",
+    authors: "",
+    imageUrl: "/images/pvs_bsw.png",
+    paperUrl: "https://link.springer.com/article/10.1007/s11615-024-00583-6",
+    tldr: "Voters who switched to the BSW have always been culturally more conservative and more populist than other voters, even when they had similar voting patterns in the past. Most BSW voters have previously voted for Die Linke, SPD or AfD."
+  },
+  {
+    year: "2024",
     conference: "Institute 4 Replication",
     title: "Do Populist Radical-Right Parties Use Descriptive Representation Strategically? A Replication of Weeks et al. (2023)",
     authors: "with Ben Guinaudeau",
     imageUrl: "/images/i4r.png",
     paperUrl: "https://www.econstor.eu/bitstream/10419/302283/1/I4R-DP149.pdf",
     tldr: "A study is not robust when the results depend on a single observation, even when you publish it in the APSR."
-  },
-  {
-    year: "2024",
-    conference: "Politische Vierteljahresschrift",
-    title: "Das Schließen der Repräsentationslücke? Die Wählerschaft des Bündnis Sahra Wagenknecht – Eine Analyse basierend auf Paneldaten",
-    authors: "",
-    imageUrl: "/images/pvs_bsw.png",
-    paperUrl: "https://link.springer.com/article/10.1007/s11615-024-00583-6",
-    tldr: "Voters which switched to the BSW have always been culturally more conservative and more populist than other voters, even when they had similar voting patterns in the past. Most BSW voters have previously voted for Die Linke, SPD or AfD."
   },
   {
       year: "2025",
@@ -75,7 +75,7 @@ export const publicationData: Publication[] = [
     authors: "with Martin Gross, Christina-Marie Juen and Florian Erlbruch",
     paperUrl: "https://www.tandfonline.com/doi/full/10.1080/01402382.2023.2208953",
     imageUrl: "/images/wep_coal.jpeg",
-    tldr: "Voters want their parties to be primarily policy-seekers in coalition negotiations, but office-seeking can play an important role."
+    tldr: "Voters want their parties to be primarily policy-seekers in coalition negotiations, but office-seeking can play an important role under certain circumstances."
 },
 {
     year: "2023",
@@ -93,7 +93,7 @@ export const publicationData: Publication[] = [
     authors: "with Robert A. Huber",
     paperUrl: "https://www.cambridge.org/core/journals/political-analysis/article/when-correlation-is-not-enough-validating-populism-scores-from-supervised-machinelearning-models/8CB3DCBECD1E37872074E7F8A9DE20BA",
     imageUrl: "/images/pa_corr.png",
-    tldr: "Evaluating only the F1 scores and correlations with other measures can be insufficient for assessing the validity of machine-learning models."
+    tldr: "Assessing the validity of proxy-measures for theoretical concepts derived from machine-learning classifcation models only based on the F1 scores and correlations with other measures can be insufficient."
 },
 {
   year: "2023",
@@ -111,7 +111,7 @@ export const publicationData: Publication[] = [
   authors: "with Christina-Marie Juen and Marcel Lewandowsky",
   paperUrl: "https://link.springer.com/article/10.1057/s41269-022-00263-6",
   imageUrl: "/images/acta_corrupt.png",
-  tldr: "Voters often do not punish corrupt politicians because the 'costs' of switching to a candidate from a less preferred party are perceived higher. Voters of radical parties often lack 'viable alternative' and thus continue to support corrupt candidates, even though they do not like corruption."
+  tldr: "Voters often do not punish corrupt politicians because they lack a clean viable alternative. This effect is particularly strong for voters of radical parties who often like only one party and, thus, are less likely to have a viable alternative."
 },
 {
   year: "2023",
@@ -120,7 +120,7 @@ export const publicationData: Publication[] = [
   authors: "with Marcel Lewandowsky",
   paperUrl: "https://www.cambridge.org/core/journals/european-political-science-review/article/sympathy-for-the-devil-voter-support-for-illiberal-politicians/5D21A5BF065BC9E67AD8E015FFB5EACE",
   imageUrl: "/images/epsr_ill.png",
-  tldr: "We know that voters might trade-off policy congruence against adherence to democratic principles when selecting candidates. We demonstrate that populist and authoritarian voters are particularly likely to do so, while less populist/authoritarian voters do not tarde-off these concepts so easily."
+  tldr: "We know that some voters trade-off policy congruence against adherence to democratic principles when selecting candidates. We demonstrate that populist and authoritarian voters are particularly likely to do so, while less populist/authoritarian voters do not tarde-off these concepts so easily."
 },
 {
   year: "2023",
@@ -129,7 +129,7 @@ export const publicationData: Publication[] = [
   authors: "",
   paperUrl: "https://www.google.com/search?client=safari&rls=en&q=Slowly+adopting%3A+The+impact+of+same-sex+marriage+legalization+on+the+attitudes+of+parliamentary+candidates+in+Germany&ie=UTF-8&oe=UTF-8",
   imageUrl: "/images/ejpg_choice.png",
-  tldr: "For decades, CDU/CSU candidates opposed same-sex marriage. However, after its legislation, the preferences of many CDU/CSU candidates on this topic has changed and opposition crumbles."
+  tldr: "For decades, CDU/CSU candidates opposed same-sex marriage. However, after its legislation, the attitudes of many CDU/CSU candidates on this topic has changed and their opposition to same-sex marriage crumbles."
 },
 {
   year: "2023",

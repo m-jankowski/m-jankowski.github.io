@@ -23,7 +23,7 @@ export function PublicationEntry({
       <div className="flex flex-col flex-1">
         <div className="flex flex-row gap-4 items-center mb-2">
           <p className="text-xs text-zinc-500">
-            {publication.conference} {publication.year}
+           {publication.conference} <b>&middot;</b> {publication.year}
           </p>
           {publication.award && (
             <div className="group flex px-2 py-1 bg-gradient-to-r from-amber-50 to-rose-50 rounded-md items-center shadow-md border border-amber-100/50 relative overflow-hidden hover:rotate-1 transition-all duration-300">
@@ -36,6 +36,14 @@ export function PublicationEntry({
         </div>
         <h3 className="font-serif text-md mb-3">{publication.title}</h3>
         <p className="text-sm text-zinc-600 mb-4">{publication.authors}</p>
+        {publication.tldr && (
+          <div className="mb-4">
+            <p className="text-xs text-zinc-500 mb-1">TL;DR</p>
+            <p className="text-sm italic text-zinc-600">
+              {publication.tldr}
+            </p>
+          </div>
+        )}
         <div className="flex flex-row gap-6">
           {publication.paperUrl && (
             <a
@@ -74,11 +82,6 @@ export function PublicationEntry({
             </a>
           )}
         </div>
-        {publication.tldr && (
-          <p className="text-sm italic text-zinc-600 mt-4">
-            {publication.tldr}
-          </p>
-        )}
       </div>
     </div>
   );
