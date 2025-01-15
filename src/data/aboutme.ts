@@ -36,7 +36,7 @@ export const aboutMe: AboutMe = {
   `,
   email: "michael.jankowski@posteo.de",
   imageUrl:
-    "https://michael-jankowski.de/wp-content/uploads/2025/01/20230703_124707-scaled.jpg",
+    "https://m-jankowski.github.io/images/pic.png",
   googleScholarUrl: "https://scholar.google.de/citations?user=qBCi9GkAAAAJ&hl",
   linkedinUsername: "michael-jankowski-44288a294",
   twitterUsername: "michaelj505",
