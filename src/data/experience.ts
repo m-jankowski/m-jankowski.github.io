@@ -17,6 +17,13 @@ export const experienceData: Experience[] = [
       "Strengthening evidence-based policy making of the government using modern data science approaches.",
   },
   {
+    date: "2023",
+    title: "Job Offer: Associate Professor of Political Science",
+    company: "Aalborg University (Denmark)",
+    description:
+      "I declined the offer in favor of the position in the German Chancellery.",
+  },
+  {
     date: "2021-2022",
     title: "Professor (pro tempore)",
     company: "University of Bremen",
