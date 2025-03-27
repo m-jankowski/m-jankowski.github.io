@@ -16,12 +16,6 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
-      {
-        protocol: 'https',
-        hostname: 'm-jankowski.github.io',
-        port: '',
-        pathname: '/**',
-      },
     ],
   },
 }

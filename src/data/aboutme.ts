@@ -35,8 +35,7 @@ export const aboutMe: AboutMe = {
     <img src="/images/banner.jpg" alt="Banner Image" style="max-width: 100%; height: auto;">
   `,
   email: "michael.jankowski@posteo.de",
-  imageUrl:
-    "https://m-jankowski.github.io/images/pic.png",
+  imageUrl: "/images/pic.png",
   googleScholarUrl: "https://scholar.google.de/citations?user=qBCi9GkAAAAJ&hl",
   linkedinUsername: "michael-jankowski-44288a294",
   twitterUsername: "michaelj505",
