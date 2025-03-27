@@ -22,13 +22,19 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
     <div className="md:sticky top-12 flex flex-row-reverse md:flex-col gap-4 md:space-y-8">
       {aboutMe.imageUrl && (
         <div className="w-1/3 md:w-full flex-shrink-0">
-          <div className="relative max-h-[45vh] md:w-[65%] aspect-[3/4]">
+          <div className="relative max-h-[45vh] md:w-[65%] aspect-[3/4] group">
             <Image
               src={aboutMe.imageUrl}
               alt={aboutMe.name}
               fill
               priority
-              className="object-cover rounded-xl"
+              className="object-cover rounded-xl transition-opacity duration-300 group-hover:opacity-0"
+            />
+            <Image
+              src="/images/hover_img.png"
+              alt={`${aboutMe.name} alternate`}
+              fill
+              className="object-cover rounded-xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
             />
           </div>
         </div>
