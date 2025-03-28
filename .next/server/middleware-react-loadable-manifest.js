@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"components/profile-section.tsx -> @/utils/image-utils\":{\"id\":\"components/profile-section.tsx -> @/utils/image-utils\",\"files\":[]}}"

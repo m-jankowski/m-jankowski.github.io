@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import {
   Github,
@@ -8,12 +10,40 @@ import {
   GraduationCap,
 } from "lucide-react";
 import { AboutMe } from "@/data/aboutme";
+import { useEffect, useState } from "react";
+import { getRandomHoverImage } from "@/utils/image-utils";
 
 interface ProfileSectionProps {
   aboutMe: AboutMe;
 }
 
 export function ProfileSection({ aboutMe }: ProfileSectionProps) {
+  const [hoverImage, setHoverImage] = useState<string>("/images/hover_img1.png");
+  const [isHovering, setIsHovering] = useState<boolean>(false);
+  
+  useEffect(() => {
+    // Run on component mount - discover any new hover images
+    import("@/utils/image-utils").then(({ discoverHoverImages }) => {
+      discoverHoverImages();
+    });
+  }, []);
+  
+  // When hovering state changes to true, set a new random image
+  useEffect(() => {
+    if (isHovering) {
+      setHoverImage(getRandomHoverImage());
+    }
+  }, [isHovering]);
+  
+  // Handle mouse enter/leave to track hover state
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+  };
+  
+  const handleMouseLeave = () => {
+    setIsHovering(false);
+  };
+
   if (!aboutMe) {
     return null;
   }
@@ -22,7 +52,11 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
     <div className="md:sticky top-12 flex flex-row-reverse md:flex-col gap-4 md:space-y-8">
       {aboutMe.imageUrl && (
         <div className="w-1/3 md:w-full flex-shrink-0">
-          <div className="relative max-h-[45vh] md:w-[65%] aspect-[3/4] group">
+          <div 
+            className="relative max-h-[45vh] md:w-[65%] aspect-[3/4] group"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <Image
               src={aboutMe.imageUrl}
               alt={aboutMe.name}
@@ -31,7 +65,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
               className="object-cover rounded-xl transition-opacity duration-300 group-hover:opacity-0"
             />
             <Image
-              src="/images/hover_img.png"
+              src={hoverImage}
               alt={`${aboutMe.name} alternate`}
               fill
               className="object-cover rounded-xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
