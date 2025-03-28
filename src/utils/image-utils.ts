@@ -42,7 +42,7 @@ export function discoverHoverImages(): void {
   
   // Get current known count
   const stored = localStorage.getItem('hoverImageCount');
-  let currentCount = stored ? parseInt(stored, 10) : 2; // Default to 2 as we know those exist
+  const currentCount = stored ? parseInt(stored, 10) : 2; // Default to 2 as we know those exist
   
   // Try to load the next image in sequence
   const nextImageUrl = `/images/hover_img${currentCount + 1}.png`;
