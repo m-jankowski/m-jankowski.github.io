@@ -2,6 +2,8 @@ import { EducationEntry } from "@/components/education-entry";
 import { educationData } from "@/data/education";
 import { PublicationEntry } from "@/components/publication-entry";
 import { publicationData } from "@/data/publication";
+import { BookEntry } from "@/components/book-entry";
+import { bookData } from "@/data/book";
 import { ProfileSection } from "@/components/profile-section";
 import { aboutMe } from "@/data/aboutme";
 import { NewsEntry } from "@/components/news-entry";
@@ -75,12 +77,32 @@ export default function Home() {
                       </section>
                     )
                   );
+                case Section.Book:
+                  return (
+                    bookData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                          Books
+                        </h2>
+                        <div className="space-y-12">
+                          {bookData.map((book, index) => (
+                            <div key={index}>
+                              <BookEntry book={book} />
+                              {index < bookData.length - 1 && (
+                                <div className="h-px bg-zinc-200 my-8" />
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
                 case Section.Publication:
                   return (
                     publicationData.length > 0 && (
                       <section key={sectionName}>
                         <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
-                          Publications
+                          Journal Articles
                         </h2>
                         <div className="space-y-12">
                           {publicationData.map((publication, index) => (
