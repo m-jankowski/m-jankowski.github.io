@@ -84,7 +84,7 @@ export const publicationData: Publication[] = [
     authors: "",
     paperUrl: "https://link.springer.com/article/10.1007/s11615-023-00456-4",
     imageUrl: "/images/pvs_cue.png",
-    tldr: "Strategic voting campaigns by interests groups gain more support when they are supported by the affected parties."
+    tldr: "Strategic voting campaigns by interest groups gain more support when they are supported by the affected parties."
 },
 {
     year: "2023",
@@ -93,7 +93,7 @@ export const publicationData: Publication[] = [
     authors: "with Robert A. Huber",
     paperUrl: "https://www.cambridge.org/core/journals/political-analysis/article/when-correlation-is-not-enough-validating-populism-scores-from-supervised-machinelearning-models/8CB3DCBECD1E37872074E7F8A9DE20BA",
     imageUrl: "/images/pa_corr.png",
-    tldr: "Assessing the validity of proxy-measures for theoretical concepts derived from machine-learning classifcation models only based on the F1 scores and correlations with other measures can be insufficient."
+    tldr: "Assessing the validity of proxy-measures for theoretical concepts derived from machine-learning classification models only based on the F1 scores and correlations with other measures can be insufficient."
 },
 {
   year: "2023",
@@ -120,7 +120,7 @@ export const publicationData: Publication[] = [
   authors: "with Marcel Lewandowsky",
   paperUrl: "https://www.cambridge.org/core/journals/european-political-science-review/article/sympathy-for-the-devil-voter-support-for-illiberal-politicians/5D21A5BF065BC9E67AD8E015FFB5EACE",
   imageUrl: "/images/epsr_ill.png",
-  tldr: "We know that some voters trade-off policy congruence against adherence to democratic principles when selecting candidates. We demonstrate that populist and authoritarian voters are particularly likely to do so, while less populist/authoritarian voters do not tarde-off these concepts so easily."
+  tldr: "We know that some voters trade-off policy congruence against adherence to democratic principles when selecting candidates. We demonstrate that populist and authoritarian voters are particularly likely to do so, while less populist/authoritarian voters do not trade-off these concepts so easily."
 },
 {
   year: "2023",
@@ -129,7 +129,7 @@ export const publicationData: Publication[] = [
   authors: "",
   paperUrl: "https://www.google.com/search?client=safari&rls=en&q=Slowly+adopting%3A+The+impact+of+same-sex+marriage+legalization+on+the+attitudes+of+parliamentary+candidates+in+Germany&ie=UTF-8&oe=UTF-8",
   imageUrl: "/images/ejpg_choice.png",
-  tldr: "For decades, CDU/CSU candidates opposed same-sex marriage. However, after its legislation, the attitudes of many CDU/CSU candidates on this topic has changed and their opposition to same-sex marriage crumbles."
+  tldr: "For decades, CDU/CSU candidates opposed same-sex marriage. However, after its legislation, the attitudes of many CDU/CSU candidates on this topic have changed and their opposition to same-sex marriage crumbles."
 },
 {
   year: "2023",
@@ -138,7 +138,7 @@ export const publicationData: Publication[] = [
   authors: "with Robert A. Huber and Carsten Wegscheider",
   paperUrl: "https://link.springer.com/article/10.1007/s11615-022-00422-6",
   imageUrl: "/images/pvs_pop.png",
-  tldr: "Populist attitudes and disconent with a perceived lack of representation in salient policy domains are strongly connected. This holds also for supporters of non-populist parties."
+  tldr: "Populist attitudes and discontent with a perceived lack of representation in salient policy domains are strongly connected. This holds also for supporters of non-populist parties."
 },
 {
   year: "2022",
@@ -147,7 +147,7 @@ export const publicationData: Publication[] = [
   authors: "with Anna-Sophie Kurella, Christian Stecker, et al.",
   paperUrl: "https://link.springer.com/article/10.1007/s11615-022-00378-7",
   imageUrl: "/images/pvs_oes.png",
-  tldr: "We asked hundreds of German political scientists to position parties on various political dimensions. This works well and provides interesting data for the reserach community."
+  tldr: "We asked hundreds of German political scientists to position parties on various political dimensions. This works well and provides interesting data for the research community."
 },
 {
   year: "2023",
@@ -246,7 +246,7 @@ export const publicationData: Publication[] = [
   authors: "with Stefan Müller",
   paperUrl: "https://www.sciencedirect.com/science/article/abs/pii/S0261379421000512",
   imageUrl: "/images/es_inc.png",
-  tldr: "Contraty to some assumptions in the literature, the incumbency advantage is just as strong in local elections as in national elections."
+  tldr: "Contrary to some assumptions in the literature, the incumbency advantage is just as strong in local elections as in national elections."
 },
 {
   year: "2021",
@@ -255,7 +255,7 @@ export const publicationData: Publication[] = [
   authors: "with Christina-Marie Juen and Markus Tepe",
   paperUrl: "https://www.nomos-elibrary.de/10.5771/0340-1758-2021-1/zparl-zeitschrift-fuer-parlamentsfragen-jahrgang-52-2021-heft-1",
   imageUrl: "/images/zparl_ill.png",
-  tldr: "In municipalities with worsening socia-structural developments, independent local lists are elecorally more successful."
+  tldr: "In municipalities with worsening socio-structural developments, independent local lists are electorally more successful."
 },
 {
   year: "2021",
@@ -327,7 +327,7 @@ export const publicationData: Publication[] = [
   authors: "with Stefan Müller",
   paperUrl: "https://www.tandfonline.com/doi/abs/10.1080/17457289.2018.1515211",
   imageUrl: "/images/jepop_choice.png",
-  tldr: "Voters opposed the new personalized electoral law in Hamburg. Especially voters with little political interest and older voter are opposed to it."
+  tldr: "Voters opposed the new personalized electoral law in Hamburg. Especially voters with little political interest and older voters are opposed to it."
 },
 {
   year: "2019",
@@ -336,7 +336,7 @@ export const publicationData: Publication[] = [
   authors: "with Kamil Marcinkiewicz",
   paperUrl: "https://www.cambridge.org/core/journals/politics-and-gender/article/abs/ineffective-and-counterproductive-the-impact-of-gender-quotas-in-openlist-proportional-representation-systems/3E54172B029C4F1E6F98EBE3AB530D3A",
   imageUrl: "/images/pg_ineff.png",
-  tldr: "We provide counterevidence to the claim that gender quotas in open-list PR systems have a counterproductive effect. While these quoats are not very effective, they still had a positive effect on women's political representation."
+  tldr: "We provide counterevidence to the claim that gender quotas in open-list PR systems have a counterproductive effect. While these quotas are not very effective, they still had a positive effect on women's political representation."
 },
 {
   year: "2018",
@@ -363,7 +363,7 @@ export const publicationData: Publication[] = [
   authors: "with Nicolas Burmester",
   paperUrl: "https://journals.sagepub.com/doi/abs/10.1177/1369148118768184?journalCode=bpia",
   imageUrl: "/images/bjpir_one.png",
-  tldr: "France and UK are most frequent defectors in the voting behavior of EU member states."
+  tldr: "France and the UK are the most frequent defectors in the voting behavior of EU member states."
 },
 {
   year: "2018",
@@ -408,7 +408,7 @@ export const publicationData: Publication[] = [
   authors: "with Marcel Lewandowsky",
   paperUrl: "https://www.nomos-elibrary.de/10.5771/1430-6387-2014-4-427/all-by-myself-oder-with-a-little-help-from-my-friends-die-integration-der-bundespartei-in-die-wahlkampforganisation-auf-landesebene-jahrgang-24-2014-heft-4?page=1",
   imageUrl: "/images/zfp_all.png",
-  tldr: "Smaller party branches in federal state get more support from the national party branch in regional elections."
+  tldr: "Smaller party branches in federal states get more support from the national party branch in regional elections."
 },
 {
   year: "2014",
@@ -417,7 +417,7 @@ export const publicationData: Publication[] = [
   authors: "with Nicolas Burmester",
   paperUrl: "https://www.tandfonline.com/doi/abs/10.1080/13501763.2014.919833",
   imageUrl: "/images/jepp_eu.png",
-  tldr: "The EU is the only regional organization in the UNGA which shows more cohesive voting patters, when the adaption of a resolution is close."
+  tldr: "The EU is the only regional organization in the UNGA which shows more cohesive voting patterns, when the adoption of a resolution is close."
 },
 {
   year: "2014",
