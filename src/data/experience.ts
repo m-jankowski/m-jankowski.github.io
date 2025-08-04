@@ -10,8 +10,15 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "2023-present",
-    title: "Data Scientist",
+    date: "2025-",
+    title: "Manager",
+    company: "PwC Germany",
+    description:
+      "Bringing AI to the public sector.",
+  },
+  {
+    date: "2023-2025",
+    title: "Team Lead Data Science & AI",
     company: "Federal German Chancellery",
     description:
       "Strengthening evidence-based policy making of the government using modern data science approaches.",
