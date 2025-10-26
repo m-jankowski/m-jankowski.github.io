@@ -20,7 +20,7 @@ export interface AboutMe {
 export const aboutMe: AboutMe = {
   name: "Dr. Michael Jankowski",
   title: "Manager",
-  institution: "PricewaterhouseCoopers Germany",
+  institution: "pwc Germany",
   description: `
     <b>Welcome!</b><br><br>
     I'm a political scientist who loves diving into data and numbers. These days, I'm working as a Manager at PwC Germany, helping bring AI projects to life in the public sector. Before that, I worked as Team Lead of the Data Science and AI team at the German Chancellery's Datalab. And way back when, I spent my time in academia exploring how voter, candidates and parties interact. For a collection of some of my papers, I got a PhD from the University of Oldenburg in 2017.<br><br>Even though I've left the ivory tower behind, I still do some research on populism, candidate selection, and political representation. That's pretty much why this website keeps getting updates! For example, in December 2024, my co-edited textbook <i>Populism. An Introduction</i> was published by SAGE. It's the first comprehensive textbook for teaching populism, emphasizing empirical research. You can order it from 

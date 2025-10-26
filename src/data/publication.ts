@@ -15,6 +15,24 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
+    conference: "Journal of Experimental Political Science",
+    title: "Partners in Crime? The Effect of Partisan Group Composition and Depolarization on Collaborative Cheating",
+    authors: "with Florian Erlbruch and Markus Tepe",
+    imageUrl: "/images/jeps.png",
+    paperUrl: "https://www.cambridge.org/core/journals/journal-of-experimental-political-science",
+    tldr: "We use a nice experimental design which allows for analyzing collaborative cheating. We combined this with a depolarization treatment and find that depolarization has no effect on honest behavior."
+  },
+  {
+    year: "2025",
+    conference: "European Journal of Political Research",
+    title: "How Coalition Formation and Preferences Shape Satisfaction with Democracy",
+    authors: "with David Willumsen and Simon Otjes",
+    imageUrl: "/images/ejprswd.png",
+    paperUrl: "https://ejpr.onlinelibrary.wiley.com/journal/14756765",
+    tldr: "The standard winner-loser model of satisfaction with democracy classifiers winners and loser based on voting for the eventual governing coalition. However, voters may vote for a party but dislike the eventually formed coalition. We show that taking into account coalition preferences improves the standard model significantly. Moreover, we show that using multi-wave panel data provides crucial insights into these mechanisms."
+  },
+  {
+    year: "2025",
     conference: "Politische Vierteljahresschrift",
     title: "Das Schließen der Repräsentationslücke? Die Wählerschaft des Bündnis Sahra Wagenknecht – Eine Analyse basierend auf Paneldaten",
     authors: "",
